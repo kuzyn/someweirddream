@@ -1,0 +1,62 @@
+/*
+* Specific settings to overwrite...
+* 24.10.12
+*
+*/
+
+body a,body a:visited {
+	font-family : "Courier";
+	color: #fff;
+	}
+
+#queue {
+	padding-top: 10px;
+	text-align: center;
+	background:#111; background:url('../images/bg-black.png');
+	border: 1px solid #E5E5E5;
+	height: 5%;
+	width: auto;
+}
+
+#queue a, #queue a:visited {
+	text-decoration:none;
+}
+
+#headlines {
+	width: auto;
+}		
+
+.big-headline a {
+	color:rgba(255,255,255,0);
+	text-shadow: #FFF 0em 0em 0.3em;
+	font-family : "Monofett", "Impact", "Helvetica";
+	text-decoration:none;
+	-webkit-transition:text-shadow 0.7s ease-in;
+    -moz-transition:text-shadow 0.5s ease-in;
+    -o-transition:text-shadow 0.5s ease-in;
+    transition:text-shadow 0.5s ease-in;
+	text-align: center;
+	font: 125px/1;
+	display: block;
+	margin: 10% auto 10%;
+	}
+
+.big-headline a:hover 	{
+	text-shadow: #AD5CFF 0 0 0.0em;
+	}	
+
+.navbar {
+	margin-left : 0.5em;
+	margin-top : 0.2em;
+	}
+
+.navbar a, .navbar a:visited {
+	font-family : "Monofett", "Impact", "Helvetica";
+	color: #000;
+	font: medium/1;
+	displau: block;
+	text-decoration:none;
+	}
+	
+
+	
